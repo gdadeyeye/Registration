@@ -1,0 +1,54 @@
+    body {
+        margin-left: 150px;
+      }
+      
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+    
+    li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+    
+    li a.active {
+    background-color: #8E0E00;
+    color: white;
+    }
+    
+    li a:hover:not(.active) {
+    background-color: forestgreen;
+    color: white;
+    }
+
+
+    .map_icon{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+    input[type=submit] {
+      width: 50%;
+      color: white;
+      background-color: #09f;
+      color: white;
+      padding: 15px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      left: 50px;
+   }
+    
